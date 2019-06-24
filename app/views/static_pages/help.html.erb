@@ -1,2 +1,5 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+<div>
+  <h1><%= yield(:title) %></h1>
+  <p>Reach out and leave a message if you need assistance!</p>
+</div>
