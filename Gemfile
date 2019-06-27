@@ -7,6 +7,8 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+# Use Boostrap 3.4.1
+gem 'bootstrap-sass', '3.4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -55,6 +57,7 @@ group :test do
   gem 'minitest-reporters'
   gem 'guard'
   gem 'guard-minitest'
+  gem 'rails-controller-testing'
 
   # Adds support for Capybara system testing and selenium driver
   #gem 'capybara', '>= 2.15'
