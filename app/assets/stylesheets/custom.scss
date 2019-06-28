@@ -1,17 +1,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// Elements
+
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: sans-serif;
   padding-top: 80px;
 }
 
-.main-logo {
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-weight: 400;
-  font-size: 1.7em;
-  color: #fff !important;
+main {
+  min-height: 100%;
 }
 
 footer {
@@ -23,6 +25,17 @@ footer {
   padding: 0 15px;
 }
 
+
+
+// Classes
+
+.main-logo {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #fff !important;
+}
 
 .footer-nav {
   display: flex;
